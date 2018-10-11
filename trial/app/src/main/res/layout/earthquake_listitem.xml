@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/magnitude_textview"
+        android:background="@drawable/magnitude_circle"
+        android:layout_width='36dp'
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="1.6"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/location_offset_textview"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="near the"
+
+            />
+        <TextView
+            android:id="@+id/primary_location_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="HOSTEL NO. 1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        >
+
+        <TextView
+            android:id="@+id/time_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="16 May ,2018 "
+            />
+
+        <TextView
+            android:id="@+id/date_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="16 May ,2018 "
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
