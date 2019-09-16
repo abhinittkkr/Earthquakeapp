@@ -1,0 +1,6 @@
+This is andorid Application which give information about earthquakes occuring all over the earth.
+Data is being taken from USGS API.
+Technologies Used:
+  XML,JAVA
+ Campatible with devices having android version 7 + . 
+
